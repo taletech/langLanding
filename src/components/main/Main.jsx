@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from '../nav/Nav';
+import testImage from '../../assets/test.png';
+
 
 const Main = () => {
     return (
@@ -19,6 +21,10 @@ const Main = () => {
                     <button className="bg-white text-orange-500 font-bold py-2 px-4 rounded-full hover:bg-orange-100 transition duration-300">
                         Get Started
                     </button>
+                </div>
+
+                <div className="flex justify-center my-12">
+                    <img src={testImage} alt="Phone UI" className="max-w-xs md:max-w-sm me-0 rounded-s" />
                 </div>
 
                 {/* Feature Section */}
