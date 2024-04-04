@@ -324,3 +324,12 @@
         padding: 20px 40px;
     }
 }
+@media (max-width: 320px) {
+    .container .box .content{
+        padding: 10px 20px;
+    }
+    .container .box{
+        width: 70vw;
+        height: 500px;
+    }
+}

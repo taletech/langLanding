@@ -7,12 +7,12 @@ const Main = () => {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-gradient-to-r from-orange-400 to-yellow-500">
+            <div className="min-h-screen min-w-screen bg-gradient-to-r from-orange-400 to-yellow-500">
                 <header className="text-center pt-40 pb-10 mt-[-20]">
-                    <h1 className="text-6xl font-bold text-white px-6">
+                    <h1 className="text-4xl 2xs:text-5xl xs:text-6xl font-bold text-white px-6">
                         A Language Focused AI Company
                     </h1>
-                    <p className="text-2xl text-white mt-4 px-4">
+                    <p className="text-xl 2xs:text-2xl text-white mt-4 px-4">
                         We make language barriers into language bridges
                     </p>
                 </header>
@@ -24,7 +24,7 @@ const Main = () => {
                 </div>
 
                 <div className="flex justify-center my-12">
-                    <img src={testImage} alt="Phone UI" className="max-w-xs md:max-w-sm me-0 rounded-s" />
+                    <img src={testImage} alt="Phone UI" className=" w-full 2xs:max-w-xs md:max-w-sm me-0 rounded-s" />
                 </div>
                 <div className="overall">
                         <div className="container">
@@ -67,7 +67,7 @@ const Main = () => {
                     </div>
                 </div>
 
-                <footer className="text-center text-white py-8">
+                <footer className="text-center text-white py-8 text-wrap">
                     © 2024 Tale LLC. All rights reserved.
                 </footer>
             </div>
