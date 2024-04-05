@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from '../nav/Nav';
 import testImage from '../../assets/test.png';
 import './Main.css';
-import LandingHome from "./LandingHome";
-import FloatingCards from "./FloatingCards";
+import LandingHome from "./sections/LandingHome";
+import FloatingCards from "./sections/FloatingCards";
+import PricingTiers from "./sections/PricingTiers";
+import ContactUs from "./sections/ContactUs";
 const Main = () => {
     return (
         <>
@@ -15,6 +17,12 @@ const Main = () => {
                 </section>
                 <section id="features">
                     <FloatingCards/>
+                </section>
+                <section id="pricing">
+                    <PricingTiers/>
+                </section>
+                <section id="contact">
+                    <ContactUs/>
                 </section>
 
                 <footer className="text-center text-white py-8 text-wrap">

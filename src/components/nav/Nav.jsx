@@ -30,7 +30,7 @@ const Navbar = () => {
                         Contact
                     </a>
                 </div>
-                <a href="#login" className="block mt-4 min-[480px]:inline-block min-[480px]:mt-0 text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent transition ease-in-out duration-300 hover:scale-105 hover:text-indigo-100 hover:bg-white hover:bg-opacity-50 ">
+                <a href="/login" className="block mt-4 min-[480px]:inline-block min-[480px]:mt-0 text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent transition ease-in-out duration-300 hover:scale-105 hover:text-indigo-100 hover:bg-white hover:bg-opacity-50 ">
                     Login
                 </a>
             </div>

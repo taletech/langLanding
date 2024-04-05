@@ -1,4 +1,4 @@
-import testImage from "../../assets/test.png";
+import testImage from "../../../assets/test.png";
 import React from "react";
 
 const LandingHome = () => {

@@ -8,6 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/login" element={<Navigate to="/"/>} />
         </Routes>
       </BrowserRouter>
   );
