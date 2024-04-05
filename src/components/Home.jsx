@@ -5,6 +5,7 @@ import HeroHome from './elements/HeroHome';
 import FeaturesHome from './elements/Features';
 import TaleEarly from './elements/taleEarly';
 import Footer from './elements/Footer';
+import FloatingCards from "./FloatingCards";
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesHome />
-          {/*<FeaturesBlocks />*/}
+          <FloatingCards/>
         <TaleEarly />
 
       </main>
