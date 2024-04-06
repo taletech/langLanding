@@ -92,10 +92,10 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Tale App goes here
+                      Coming Soon...
                     </div>
                     <div className="text-gray-600">
-                      Tale is building an app
+                      Tale is in the development of multiple apps, but our learner is the pilot project
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -125,10 +125,10 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Another Tale app goes here
+                      Coming Soon...
                     </div>
                     <div className="text-gray-600">
-                      Building another Tale app
+                      Tale's dev team is hard at work!
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

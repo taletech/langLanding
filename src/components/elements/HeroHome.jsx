@@ -68,12 +68,11 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                   <Link
-                    className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    to="#"
+                   <a
+                    className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#subscribe"
                   >
-                    Accounts Coming Soon...
-                  </Link>
+                    Sign Up For Early Access
+                  </a>
                 </div>
                 {/*<div>
                   <a
