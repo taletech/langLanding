@@ -14,7 +14,7 @@ function Footer() {
               <Link to="/" className="inline-block" aria-label="Cruip">
                 <img
                   className="h-6"
-                  src="../public/logo-on-light.png"
+                  src="../../public/images/TaleWebLogo.png"
                   alt="Lang Tech logo"
                 />
               </Link>
