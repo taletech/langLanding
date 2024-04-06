@@ -47,7 +47,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signin"
+                  to="#"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
@@ -55,7 +55,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signup"
+                  to="#"
                   className="btn-sm text-gray-200 bg-red-600 hover:bg-red-700 ml-3"
                 >
                   <span>Sign up</span>
