@@ -3,11 +3,12 @@ import React from 'react';
 function TaleEarly() {
   return (
       <>
-        <div className="max-w-6xl mx-auto px-6 sm:px-6 mt-16 drop-shadow-2xl">
-          <div className="relative bg-gray-900 rounded py-4 px-16 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-16 drop-shadow-2xl">
+          <div className="relative bg-gray-900 rounded py-4 px-6 sm:px-16 shadow-2xl overflow-hidden"
+               data-aos="zoom-y-out">
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <p className="text-gray-300 text-lg mr-16">
+              <div className="text-center lg:text-left lg:max-w-xl mb-4 lg:mb-0">
+                <p className="text-gray-300 text-lg">
                   Gain Early Access! Tale needs beta testers.
                 </p>
               </div>
@@ -17,7 +18,7 @@ function TaleEarly() {
                   method="post"
                   id="mc-embedded-subscribe-form"
                   name="mc-embedded-subscribe-form"
-                  className="validate w-full lg:w-auto flex"
+                  className="validate w-full lg:w-auto flex flex-col sm:flex-row"
                   target="_blank"
               >
                 <input
@@ -41,6 +42,7 @@ function TaleEarly() {
             </div>
           </div>
         </div>
+
 
       </>
   );
