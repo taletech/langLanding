@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TaleLogo from '../../public/images/TaleWebLogo.png'
+
 
 function Footer() {
   return (
@@ -14,7 +16,7 @@ function Footer() {
               <Link to="/" className="inline-block" aria-label="Cruip">
                 <img
                   className="h-6"
-                  src="../public/logo-on-light.png"
+                  src={TaleLogo}
                   alt="Lang Tech logo"
                 />
               </Link>

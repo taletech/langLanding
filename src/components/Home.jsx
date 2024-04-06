@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import Header from './elements/Header';
 import HeroHome from './elements/HeroHome';
@@ -8,6 +8,11 @@ import Footer from './elements/Footer';
 import FloatingCards from "./FloatingCards";
 
 function Home() {
+    useEffect(() => {
+        if (window.location.hash === '#subscribe') {
+            window.location.replace(window.location.pathname + window.location.search);
+        }
+    }, []);
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -20,9 +25,10 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesHome />
-          <FloatingCards/>
-        <TaleEarly />
-
+        <FloatingCards/>
+        <section id="subscribe">
+            <TaleEarly />
+        </section>
       </main>
 
       {/*  Site footer */}

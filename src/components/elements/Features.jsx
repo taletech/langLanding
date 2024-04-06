@@ -23,7 +23,7 @@ function Features() {
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-gray-100 pointer-events-none"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
@@ -92,10 +92,10 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Tale App goes here
+                      Coming Soon...
                     </div>
                     <div className="text-gray-600">
-                      Tale is building an app
+                      Tale is in the development of multiple apps, but our learner is the pilot project
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -125,10 +125,10 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Another Tale app goes here
+                      Coming Soon...
                     </div>
                     <div className="text-gray-600">
-                      Building another Tale app
+                      Tale's dev team is hard at work!
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

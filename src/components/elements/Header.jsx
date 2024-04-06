@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import TaleLogo from '../../public/images/TaleWebLogo.png'
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -24,10 +25,10 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <Link to="/" className="block" aria-label="Home">
               <img
                 className="h-10"
-                src="../public/logo-on-light.png"
+                src={TaleLogo}
                 alt="Lang Tech logo"
               />
             </Link>
@@ -46,7 +47,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signin"
+                  to="#"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
@@ -54,7 +55,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signup"
+                  to="#"
                   className="btn-sm text-gray-200 bg-red-600 hover:bg-red-700 ml-3"
                 >
                   <span>Sign up</span>
