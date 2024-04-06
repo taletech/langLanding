@@ -3,6 +3,7 @@ import Modal from '../../utils/Modal';
 import { Link } from 'react-router-dom';
 
 import HeroImage from '../../public/hero-image.png';
+import TaleEarly from "./taleEarly";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -46,34 +47,29 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
-              data-aos="zoom-y-out"
+                className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+                data-aos="zoom-y-out"
             >
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-400">
                 "Native Speaker
               </span>
-               <span> as a Service"</span>
+              <span> as a Service"</span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-600 mb-8"
-                data-aos="zoom-y-out"
-                data-aos-delay="150"
+                  className="text-xl text-gray-600 mb-8"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="150"
               >
-                We are Tale! A language focused AI company designing highly accurate, multi-purpose, speech analysis models.
+                We are Tale! A language focused AI company designing highly accurate, multi-purpose, speech analysis
+                models.
               </p>
               <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
+                  className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
               >
-                <div>
-                   <a
-                    className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" href="#subscribe"
-                  >
-                    Sign Up For Early Access
-                  </a>
-                </div>
+
                 {/*<div>
                   <a
                       className="btn text-gray-200 bg-gray-400 cursor-not-allowed w-full sm:w-auto sm:ml-4 pointer-events-none"
@@ -85,7 +81,9 @@ function HeroHome() {
                 </div> */}
 
               </div>
+
             </div>
+            <TaleEarly/>
           </div>
 
           {/* Hero image */}
